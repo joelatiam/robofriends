@@ -2,7 +2,7 @@ import React from 'react';
 
 import './search-box.css';
 
-export function SearchBox ({searchField, searchChange}) {
+export function SearchBox ({searchChange}) {
 
     return (
         <div className='pa2'>
