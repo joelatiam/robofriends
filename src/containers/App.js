@@ -5,6 +5,8 @@ import * as actions from '../redux/actions/actions'
 import { Scroll } from '../components/scroll/scroll.component';
 import { CardList } from '../components/card-list/card-list.component';
 import {SearchBox} from '../components/search-box/search-box.component';
+import Header from '../components/header/header.component';
+
 
 import './App.css';
 
@@ -43,7 +45,7 @@ class App extends Component {
     }
     return (
       <div className="App tc">
-        <h1 className="f2">Robofriends</h1>
+        <Header/>
         <SearchBox searchChange = {onSearchChange}/>
         <Scroll>
           <ErrorBoundary>
