@@ -18,16 +18,8 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "index.html",
+  "start_url": "https://joelatiam.github.io/robofriends/index.html",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff",
-  "app": {
-    "urls": [
-      "https://joelatiam.github.io/robofriends/"
-    ],
-    "launch": {
-      "web_url": "https://joelatiam.github.io/robofriends/"
-    }
-  }
+  "background_color": "#ffffff"
 }
